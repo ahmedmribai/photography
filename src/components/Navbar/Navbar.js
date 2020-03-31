@@ -1,46 +1,31 @@
 import React from "react";
-
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
-    <nav class="navbar ">
-      <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
-        &#9776;
-      </label>
-      <a href="/" class="logo">
-        logo
-      </a>
-      <input type="checkbox" id="chkToggle"></input>
-      <ul class="main-nav" id="js-menu">
-        <li>
-          <a href="#" class="nav-links">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-links">
-            Products
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-links">
-            About Us
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-links">
-            Contact Us
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-links">
-            Blog
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div className="nav">
+      <input type="checkbox" id="nav-check" />
+      <div className="nav-header">
+        <a href="/" className="nav-title">
+          logo houssem bitch
+        </a>
+      </div>
+      <div className="nav-btn">
+        <label htmlFor="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div className="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About Me</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
   );
 };
 
-export default Navbar;
+export default Navbar2;

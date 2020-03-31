@@ -1,0 +1,21 @@
+.container {
+    background-image: url("../../assets//background/Untitled-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 597px; 
+    width: 100%;
+  }
+  .title {
+      color: antiquewhite;
+      padding-left: 25%;
+      padding-top: 25%;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .conatainer {
+     
+      background-image: url("../../assets//background/Untitled-1.png");
+    }
+  }
